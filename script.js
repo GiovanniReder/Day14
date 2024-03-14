@@ -14,9 +14,10 @@ button.addEventListener("click", () => {
   const div = document.querySelectorAll("div .cell");
   // se l'inner text del div = 1 numero nell'array dai una classe al div che cambierà il numero
   div.forEach((cella) => {
-    for (let i = 0; i >= arrayNum.length; i++) {
+    for (let i = 0; i > arrayNum.length; i++) {
       if (arrayNum[i] === cella.innerText) {
         cella.classList("red");
+        console.log(arrayNum[i], cella.innerText);
       }
     }
   });

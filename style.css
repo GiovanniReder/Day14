@@ -1,0 +1,17 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 2fr);
+}
+
+.cell {
+  background-color: #656466;
+  color: #e9edeb;
+  border-radius: 2px;
+  border: 1px solid #0c0b1d;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+}
